@@ -1,0 +1,54 @@
+.home {
+  height: 80rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  &_1 {
+    position: absolute;
+    width: 50%;
+    
+    left: 0px;
+    top: 0.11px;
+
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    filter: blur(300px);
+  }
+  &_2 {
+    position: absolute;
+    width: 100%;
+    height: 45rem;
+    left: -338px;
+    top: -910.5px;
+
+    background: #ff9636;
+  }
+  &_3 {
+    position: absolute;
+    width: 1029px;
+    height: 45rem;
+    left: 452px;
+    top: 271.97px;
+
+    background: #ff5c4d;
+  }
+  &_4 {
+    position: absolute;
+    width: 1029px;
+    height: 45rem;
+    left: 773px;
+    top: -507.14px;
+
+    background: #dad870;
+  }
+  &_5 {
+    position: absolute;
+    width: 1029px;
+    height: 45rem;
+    left: -338px;
+    top: 473.1px;
+
+    background: #ffcd58;
+  }
+}
