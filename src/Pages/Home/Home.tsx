@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Port from "./Port";
+import Contact from "./Contact";
 import Lottie from "lottie-react";
 import people from "../../assets/bg.png";
 import appAnimation from "../../assets/lottie/70537-app-development-design-isometric-concept (1).json";
 
 function Home() {
- 
   const backgroundColor = (
     <div className="home_container">
       <div className="home_1">
@@ -55,8 +55,8 @@ function Home() {
           </Link>
         </div>
       </div>
-      <Port/>
-      
+      <Port />
+      <Contact/>
     </div>
   );
 }

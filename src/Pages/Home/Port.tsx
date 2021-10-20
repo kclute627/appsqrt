@@ -1,4 +1,4 @@
-import { urlSafeDecode } from "@aws-amplify/core";
+
 import React from "react";
 import { Link } from "react-router-dom";
 import app1 from '../../assets/app1.jpeg'

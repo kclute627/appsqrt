@@ -5,7 +5,27 @@
   display: grid;
   grid-template-columns: 20rem minmax(5rem, 95rem) 1fr;
   grid-template-rows: auto auto 29rem 75rem;
+  &_contact {
+    grid-row: 4/7;
+    grid-column: 1/-1;
+   
+    margin-top: 5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
+
+    &-right{
+      width: 84rem;
+
+    }
+    &-left{
+      width: 55rem;
+
+    }
+    
+  }
   &_top {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -226,8 +246,19 @@
       background-position: center;
       background-size: cover;
       margin-right: 1rem;
-
-      
     }
+  }
+}
+.form{
+  width: 75%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  & h2{
+    margin-top: 2rem;
+    font-size: 3.5rem;
+  }
+  &-field{
+    margin-top: 2rem;
   }
 }
